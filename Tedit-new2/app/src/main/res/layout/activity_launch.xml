@@ -4,8 +4,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".LaunchActivity">
-
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+<View
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@drawable/start_button_selector"
+    android:layout_marginBottom="94dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:clickable="true"
+    android:longClickable="true"
+    android:nestedScrollingEnabled="true"
+    android:id="@+id/start_button"
+    android:onClick="start_on_click" />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/starttrui"
+        android:layout_marginBottom="117dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:longClickable="false"
+        android:nestedScrollingEnabled="true"
+        android:id="@+id/start_button_ic" />
 </RelativeLayout>
